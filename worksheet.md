@@ -19,6 +19,7 @@ minimap
 Answer:
 
 Illumina = fluorescent nucleotides are added to a DNA template / produces short reads
+
 Nanopore = sequences are run through small pores and each nucleotide disrupts an electric current in a unique way / produces long reads
 
 ## Q4: What differences do you notice between the Illumina and Nanopre raw_data fastq file sizes? Which are larger?
