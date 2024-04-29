@@ -1,4 +1,10 @@
 #!/bin/bash
+#SBATCH --account=utu
+#SBATCH --partition=lonepeak
+#SBATCH --node=1
+#SBATCH --ntasks=1
+#SBATCH --time=1:00:00
+#SBATCH --cpus-per-task=4
 
 {
 usage="$(basename "$0") [-h] [-I <SRA_list_Illumina>] [-N <SRA_list_Nanopore>] [-g <reference_genome>][-d <repository_directory>] [-w <working_directory]
