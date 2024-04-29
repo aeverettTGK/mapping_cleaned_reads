@@ -8,11 +8,18 @@
 ## Q1: What does it mean to map/align reads to a reference?
 Answer:
 
+It means to take sequencing data in short chunks called reads and determining where they fit along / originate from compared to a reference genome.
+
 ## Q2: What read mapper does the mapping_cleaned_reads.sh script use?
 Answer:
 
+minimap
+
 ## Q3: Both Illumina and Nanopore reads are used for this assignment. What are the major differences between the methodology used for these sequencing platforms?
 Answer:
+
+Illumina = fluorescent nucleotides are added to a DNA template / produces short reads
+Nanopore = sequences are run through small pores and each nucleotide disrupts an electric current in a unique way / produces long reads
 
 ## Q4: What differences do you notice between the Illumina and Nanopre raw_data fastq file sizes? Which are larger?
 Answer:
